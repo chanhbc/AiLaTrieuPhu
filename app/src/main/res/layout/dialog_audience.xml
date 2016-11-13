@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/atp__activity_player_layout_help_call_audience_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_answer_a"
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_answer_b"
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_answer_c"
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_answer_d"
+            android:layout_width="326dp"
+            android:layout_height="48dp"
+            android:background="@drawable/atp__activity_player_layout_play_answer_background_normal"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/atp__dialog_confirm_background_button_active"
+            android:text="Đóng"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-375dp"
+        android:background="@drawable/atp__button_active"
+        android:gravity="center"
+        android:text="Ý kiến khán giả" />
+
+</LinearLayout>

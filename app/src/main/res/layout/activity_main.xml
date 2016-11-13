@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/ivGameCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/atp__splash_game_center" />
+
+    <LinearLayout
+        android:id="@+id/llHomeCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/atp__activity_home_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/llLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivHome"
+                android:layout_width="326dp"
+                android:layout_height="326dp"
+                android:background="@drawable/atp__bg_circle_anim" />
+
+            <ImageView
+                android:layout_width="206dp"
+                android:layout_height="206dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/atp__icon_logo_in_app" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_rank"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="@drawable/atp__achievement_than_toc_tao_bao" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#75295a" />
+
+            <Button
+                android:id="@+id/btn_trial_login"
+                android:layout_width="256dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/selector_button_trial" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#75295a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#302873" />
+
+            <Button
+                android:id="@+id/btn_zalo_login"
+                android:layout_width="256dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/selector_button_zalo" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:background="#302873" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
